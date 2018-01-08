@@ -104,6 +104,24 @@ const styles = StyleSheet.create({
 
 LikeView.defaultProps = {style: styles.defaultButtonStyle};
 
+<<<<<<< HEAD
 const RCTFBLikeView = requireNativeComponent('RCTFBLikeView', LikeView);
+=======
+const RCTFBLikeView = requireNativeComponent(
+  'RCTFBLikeView',
+  LikeView,
+  {
+    nativeOnly: {
+      onLayout: true,
+      testID: true,
+      importantForAccessibility: true,
+      accessibilityLiveRegion: true,
+      accessibilityComponentType: true,
+      accessibilityLabel: true,
+      renderToHardwareTextureAndroid: true,
+    }
+  }
+);
+>>>>>>> 95b2a44df3c743eb3545eae9ccd9def621eaaef9
 
 module.exports = LikeView;

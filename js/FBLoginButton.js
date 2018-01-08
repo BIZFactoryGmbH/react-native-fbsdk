@@ -154,7 +154,20 @@ LoginButton.defaultProps = {
 const RCTFBLoginButton = requireNativeComponent(
   'RCTFBLoginButton',
   LoginButton,
+<<<<<<< HEAD
   {nativeOnly: {onChange: true}},
+=======
+  { nativeOnly: {
+    onChange: true,
+    onLayout: true,
+    testID: true,
+    importantForAccessibility: true,
+    accessibilityLiveRegion: true,
+    accessibilityComponentType: true,
+    accessibilityLabel: true,
+    renderToHardwareTextureAndroid: true,
+  } }
+>>>>>>> 95b2a44df3c743eb3545eae9ccd9def621eaaef9
 );
 
 module.exports = LoginButton;
