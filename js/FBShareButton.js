@@ -70,8 +70,8 @@ ShareButton.defaultProps = {
 const RCTFBShareButton = requireNativeComponent(
   'RCTFBShareButton',
   ShareButton,
-<<<<<<< HEAD
-=======
+
+
   { nativeOnly: {
     onChange: true,
     onLayout: true,
@@ -82,7 +82,7 @@ const RCTFBShareButton = requireNativeComponent(
     accessibilityLabel: true,
     renderToHardwareTextureAndroid: true,
   } }
->>>>>>> 95b2a44df3c743eb3545eae9ccd9def621eaaef9
+
 );
 
 module.exports = ShareButton;
