@@ -83,6 +83,4 @@ const RCTFBSendButton = requireNativeComponent(
     renderToHardwareTextureAndroid: true,
   } }
 );
-
-
 module.exports = SendButton;
